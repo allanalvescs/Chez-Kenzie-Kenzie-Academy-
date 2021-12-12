@@ -34,12 +34,13 @@ Logo abaixo estará alguns valores CSS que serão ultilizados no projeto.
 
 #### Mobile:
 
-1. Titulos: 16px;
+1. Titulos(h1,h2): 20px;
 2. Menu e rodapé: 8px;
 3. Textos: 10px;
 4. Imagens(Cardápio/mapa): 150px;
 5. Imagem(Sobre nós): 250px;
 6. Icones: 20px;
+7. subtitulos(h3): 16px
 
 #### Desktop:
 
@@ -52,6 +53,7 @@ Logo abaixo estará alguns valores CSS que serão ultilizados no projeto.
 7. Imagem(mapa): 546px;
 8. Endereço/texto(sobre nós): 24px
 9. Icones: 20px;
+   10.Texto banner: 64px;
 
 ### Objetivo
 
