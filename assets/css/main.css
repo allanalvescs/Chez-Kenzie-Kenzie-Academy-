@@ -48,4 +48,85 @@ main{}
         display: none;
     }
     /* banner */
+
+
+    /* Cardápio */
+    .secaoCardapio{
+        margin: 10px 0px;
+    }
+    .secaoCadapio__titulo{
+        display: flex;
+        justify-content: center;
+    }
+    .secaoCadapio__titulo::after{
+        content: "";
+        height: 3px;
+        width: 35px;
+        background-color: var(--cor-vermelho-escuro);
+        position: absolute;
+        bottom: -5px;
+
+    }
+    .titulo{
+        position: relative;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: var(--font-titulos);
+        color: var(--cor-vermelho-escuro);
+    }
+    .secaoCardaío__box--lista{
+        margin-top: 10px;
+        padding: 10px 15px;
+    }
+    .secaoCardapio__lista{
+        display: flex;
+        overflow-x: scroll;
+        padding-bottom: 20px;
+    }
+    .secaoCardapio__lista::-webkit-scrollbar{
+        width: 30px;
+        height: 3px;
+        background-color: #d6d6d6;
+    }
+    .secaoCardapio__lista::-webkit-scrollbar-thumb{
+        background-color: #000;
+        border-radius: 6px;
+    }
+    .secaoCardapio__lista li{
+        margin-right: 10px;
+    }
+    .secaoCardapio__lista li .Box__imagem--pedido{
+        width: 150px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .Box__imagem--pedido img{
+        width: 100%;
+        height: 100%;
+    }
+    .secaoCardapio__lista li .titulo--item{
+        color: var(--cor-vermelho-escuro);
+        text-align: center;
+        font-size: 2rem;
+        font-family: var(--font-titulos);
+        margin: 5px;
+        position: relative;
+    }
+    .titulo--item::after{
+        content: "";
+        width: 30px;
+        height: 3px;
+        background-color: var(--cor-vermelho-escuro);
+        position: absolute;
+        bottom: -3px;
+        left: 60px;
+    }
+    .secaoCardapio__lista li p{
+        margin-top: 10px;
+        font-size: 1.1rem;
+        text-align: center;
+        color: var(--cor-vermelho-escuro);
+        font-family: var(--font-textos);
+    }
+    /* Cardápio */
 /*  */
