@@ -1,0 +1,51 @@
+/* CONTÉUDO PRINCIPAL */
+
+/* main */
+main{}
+    /* banner */
+    .banner{
+        background-image: url(./../img/Banner.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 130px;
+    }
+    .banner__container{
+        padding: 10px 0px;
+    }
+    .banner__Introducao{
+        color: #fff;
+        font-family: var(--font-titulos);
+        font-size: 2.5rem;
+        width: 280px;
+        margin:0 auto;
+        position: relative;
+        text-align: center;
+    }
+    .banner__Introducao::after{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 3px;
+        background-color: #fff;
+        bottom: -10px;
+        left: 69px;
+    }
+    .box-botao{
+        text-align: center;
+    }
+    .banner__botao{
+        border: 1px solid transparent;
+        border-radius: 6px;
+        background-color: var(--cor-vermelho-claro);
+        color: #fff;
+        font-family: var(--font-textos);
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 5px 10px;
+        margin-top: 25px;
+    }
+    .banner__ico{
+        display: none;
+    }
+    /* banner */
+/*  */
