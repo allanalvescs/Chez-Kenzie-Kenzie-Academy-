@@ -1,0 +1,39 @@
+/* CABEÇALHO */
+header{
+    background-color: var(--cor-vermelho-escuro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50px;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px;
+}
+.logo h1{
+    color: #fff;
+    font-family: var(--font-titulos);
+    font-size: 2.5rem;
+}
+.menu{
+    width: 100%;
+    padding-left: 15px;
+}
+.menu__lista{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.menu__lista li{
+    margin: 0px 6px;
+}
+.menu__lista li a{
+    color: #fff;
+    font-family: var(--font-textos);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.menu__lista li button{
+    display: none;
+}
