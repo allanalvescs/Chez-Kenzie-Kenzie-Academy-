@@ -169,4 +169,65 @@ main{}
         height: 100%;
     }
     /* Sobre nós */
+
+
+    /* Contatos */
+    .secaoContatos{
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .redes{}
+    .secaoContatos__titulo{
+        display: flex;
+        justify-content: center;
+    }
+    .secaoContatos__titulo::after{
+        content: "";
+        height: 3px;
+        width: 30px;
+        background-color: var(--cor-vermelho-escuro);
+        position: absolute;
+        bottom: -3px;
+        right: 122px;
+    }
+    .endereco--contatos{
+        margin: 10px;
+    }
+    .endereco--contatos ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .endereco--contatos ul li{
+        margin: 5px 10px;
+        display: flex;
+        align-items: center
+    }
+    .endereco--contatos ul li .ico{
+        margin-right: 10px;
+    }
+    .ico img{}
+    .endereco--contatos ul li span{
+        font-size: 1.2rem;
+        color: var(--cor-vermelho-escuro);
+    }
+    .endereco--contatos ul li p{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        color: var(--cor-vermelho-escuro);
+        font-weight: bold;
+    }
+    .googleMaps{}
+    .googleMaps__Mapa{
+        text-align: center;
+    }
+    .googleMaps__Mapa img{}
+    .googleMapas__link{
+        text-align: center;
+    }
+    .googleMapas__link a{
+        color: var(--cor-vermelho-claro);
+    }
+    /* Contatos */
 /*  */
